@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="195e87d9-3c45-4496-b194-054496ff9af6" ItemType="BusinessFlow" CreatedBy="meni" Created="202303241755" GingerVersion="4.4.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202303241803" />
+<BusinessFlow Guid="195e87d9-3c45-4496-b194-054496ff9af6" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActivitiesGroupID="Group" ActivityName="Activity 1" Guid="8655d312-74df-4cc5-ada9-3e920c1d7cd5" ParentGuid="8655d312-74df-4cc5-ada9-3e920c1d7cd5" Type="Link" />
+<Activity ActivitiesGroupID="Group" ActivityName="Activity 2" Guid="c99edc05-5479-410f-85cd-f2c9497363b0" ParentGuid="c99edc05-5479-410f-85cd-f2c9497363b0" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="ae276dc9-014b-476a-83c3-b75f999e110a" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8655d312-74df-4cc5-ada9-3e920c1d7cd5" ActivityName="Activity 1" Guid="9c5ac95b-79e4-43bf-9001-23de2b27248d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c99edc05-5479-410f-85cd-f2c9497363b0" ActivityName="Activity 2" Guid="50d8db48-e3d0-4471-8bb4-898ed9a0ae39" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="b2ac009f-6cfa-437b-a654-34b0eda396fa" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
