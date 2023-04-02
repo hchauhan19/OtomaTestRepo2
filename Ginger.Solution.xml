@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="d069973c-d8a4-4781-8022-aeda71d37778" ItemType="Solution" CreatedBy="meni" Created="202303241755" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303241756" />
+<GingerRepositoryItem><Header ItemGuid="d069973c-d8a4-4781-8022-aeda71d37778" ItemType="Solution" CreatedBy="meni" Created="202303241755" GingerVersion="4.4.0.0" Version="8" LastUpdateBy="meni" LastUpdate="202304021516" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="d069973c-d8a4-4781-8022-aeda71d37778" Name="SwagLabs" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ALMConfigs>
+<ALMConfig AlmType="QC" Guid="e44410e5-628f-4a0d-994a-7b6408056ef2" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ALMConfig ALMConfigPackageFolderPath="~\\Configurations\JiraConfigurationsPackage" ALMServerURL="http://99.80.254.65:8080" AlmType="Jira" DefaultAlm="True" Guid="5fb08212-9d3e-463b-b1a8-681e5a13d210" JiraTestingALM="Xray" ParentGuid="00000000-0000-0000-0000-000000000000" UseRest="True" />
+</ALMConfigs>
+
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="8c9eb240-5632-47e0-bf5e-615e579f6d38" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 </ApplicationPlatforms>
