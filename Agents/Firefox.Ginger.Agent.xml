@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="47cdea8c-ebe4-4217-9cad-fe83853a5845" ItemType="Agent" CreatedBy="meni" Created="202303241834" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303241834" />
+<GingerRepositoryItem><Header ItemGuid="47cdea8c-ebe4-4217-9cad-fe83853a5845" ItemType="Agent" CreatedBy="meni" Created="202303241834" GingerVersion="4.4.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202304030719" />
 <Agent Active="True" AgentType="Driver" DriverType="SeleniumFireFox" Guid="47cdea8c-ebe4-4217-9cad-fe83853a5845" Name="Firefox" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Publish="True">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="894cdb5c-6636-497b-b177-9093db83dd0d" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -12,7 +12,7 @@
 <DriverConfigParam Description="Ignore Internet Explorer protected mode" Guid="a2d41e16-6324-4a3e-93a1-8c197d9a39ad" Parameter="IgnoreIEProtectedMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
 <DriverConfigParam Description="Only for Internet Explorer &amp; Firefox | Set &quot;true&quot; for using 64Bit Browser" Guid="0277e4e6-91f5-46bf-843c-b4404ac3e91e" Parameter="Use64Bitbrowser" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
 <DriverConfigParam Description="Use Browser In Private/Incognito Mode (Please use 64bit Browse with Internet Explorer " Guid="464bfab3-2c99-4199-a68b-445f5a7e8b6b" Parameter="BrowserPrivateMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
-<DriverConfigParam Description="Only for Chrome &amp; Firefox | Set &quot;true&quot; to run the browser in background (headless mode) for faster Execution" Guid="b1cedfc6-8e33-4d66-bb89-d22703fef709" Parameter="HeadlessBrowserMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Only for Chrome &amp; Firefox | Set &quot;true&quot; to run the browser in background (headless mode) for faster Execution" Guid="b1cedfc6-8e33-4d66-bb89-d22703fef709" Parameter="HeadlessBrowserMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
 <DriverConfigParam Description="Set &quot;true&quot; to Launch the Browser minimized" Guid="492a0ab9-f95d-489e-aea6-be913fe3f8b4" Parameter="BrowserMinimized" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
 <DriverConfigParam Description="Only for Edge: Open Edge browser in IE Mode" Guid="641123a6-89ab-415a-a639-3ead811fd616" Parameter="OpenIEModeInEdge" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
 <DriverConfigParam Description="Only if OpenEdgeInIEMode is set to true: location of Edge.exe file in local computer" Guid="c5e8833a-0b7e-4e57-b69b-cf7503dc9200" Parameter="EdgeExcutablePath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" />
