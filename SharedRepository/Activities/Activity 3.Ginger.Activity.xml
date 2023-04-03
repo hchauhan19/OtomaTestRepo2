@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="92ad9a87-e68f-4848-89e1-332702cad86e" ItemType="Activity" CreatedBy="meni" Created="202304030637" GingerVersion="4.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202304030637" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 3" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="92ad9a87-e68f-4848-89e1-332702cad86e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="5d048896-a569-4a7c-9adb-b14cdf7c289b" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="InvertStatus" WaitVE="2" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="2a18ff43-3eea-40c4-bd1d-ae94a70475f6" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="c5b6c754-e101-4f00-906b-3c42f7b015c4" mExpected="123" Operator="Equals" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDummy>
+</Acts>
+</Activity></GingerRepositoryItem>
