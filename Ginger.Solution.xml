@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="d069973c-d8a4-4781-8022-aeda71d37778" ItemType="Solution" CreatedBy="meni" Created="202303241755" GingerVersion="23.4.0.0" Version="10" LastUpdateBy="meni" LastUpdate="202310110743" />
+<GingerRepositoryItem><Header ItemGuid="d069973c-d8a4-4781-8022-aeda71d37778" ItemType="Solution" CreatedBy="meni" Created="202303241755" GingerVersion="23.4.0.0" Version="11" LastUpdateBy="meni" LastUpdate="202310111720" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="d069973c-d8a4-4781-8022-aeda71d37778" Name="SwagLabs" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ALMConfigs>
 <ALMConfig AlmType="QC" Guid="e44410e5-628f-4a0d-994a-7b6408056ef2" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -8,6 +8,7 @@
 
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="8c9eb240-5632-47e0-bf5e-615e579f6d38" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+<ApplicationPlatform AppName="MyWebServicesApp" Description="WebServices Application" Guid="339d1919-ceb4-417c-ba23-ff5c1d2c2133" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
 </ApplicationPlatforms>
 
 <ApplitoolsConfiguration>
