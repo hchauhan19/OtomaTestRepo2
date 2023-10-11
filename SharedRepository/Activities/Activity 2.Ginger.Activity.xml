@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c99edc05-5479-410f-85cd-f2c9497363b0" ItemType="Activity" CreatedBy="meni" Created="202303241802" GingerVersion="4.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202303241802" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="c99edc05-5479-410f-85cd-f2c9497363b0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="c99edc05-5479-410f-85cd-f2c9497363b0" ItemType="Activity" CreatedBy="meni" Created="202303241802" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202310111718" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="c99edc05-5479-410f-85cd-f2c9497363b0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
 <ActUIElement Active="True" Description="SetText - input text user-name" Guid="921d8009-ae12-40a9-9afd-b549cfa57d89" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>

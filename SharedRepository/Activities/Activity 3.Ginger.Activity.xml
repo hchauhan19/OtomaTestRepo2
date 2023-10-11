@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="92ad9a87-e68f-4848-89e1-332702cad86e" ItemType="Activity" CreatedBy="meni" Created="202304030715" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202304030737" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 3" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="92ad9a87-e68f-4848-89e1-332702cad86e" ParentGuid="92ad9a87-e68f-4848-89e1-332702cad86e" PercentAutomated="100%" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="92ad9a87-e68f-4848-89e1-332702cad86e" ItemType="Activity" CreatedBy="meni" Created="202304030715" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="meni" LastUpdate="202310111718" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 3" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="92ad9a87-e68f-4848-89e1-332702cad86e" ParentGuid="92ad9a87-e68f-4848-89e1-332702cad86e" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Dummy Action" Guid="30853289-a828-4ab6-84dc-c4aeadd0a8d0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="InvertStatus" WaitVE="2" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -8,7 +8,7 @@
 </InputValues>
 
 <ReturnValues>
-<ActReturnValue Active="True" Guid="abd533fb-630d-4df2-8184-e76258c25fa4" mExpected="123" Operator="Equals" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+<ActReturnValue Active="True" Expected="123" Guid="abd533fb-630d-4df2-8184-e76258c25fa4" Operator="Equals" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActDummy>
 </Acts>

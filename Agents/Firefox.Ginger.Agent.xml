@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="47cdea8c-ebe4-4217-9cad-fe83853a5845" ItemType="Agent" CreatedBy="meni" Created="202303241834" GingerVersion="4.4.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202304030719" />
+<GingerRepositoryItem><Header ItemGuid="47cdea8c-ebe4-4217-9cad-fe83853a5845" ItemType="Agent" CreatedBy="meni" Created="202303241834" GingerVersion="23.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202310111718" />
 <Agent Active="True" AgentType="Driver" DriverType="SeleniumFireFox" Guid="47cdea8c-ebe4-4217-9cad-fe83853a5845" Name="Firefox" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Publish="True">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="894cdb5c-6636-497b-b177-9093db83dd0d" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
