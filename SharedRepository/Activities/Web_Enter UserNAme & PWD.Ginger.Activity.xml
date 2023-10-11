@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="77b7c8f4-ee24-4256-999f-ce55ea21444a" ItemType="Activity" CreatedBy="meni" Created="202310111806" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310111806" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Web_Enter UserNAme &amp; PWD" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="77b7c8f4-ee24-4256-999f-ce55ea21444a" ParentGuid="77b7c8f4-ee24-4256-999f-ce55ea21444a" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="SetText - input text user-name" Guid="126e47e4-50e5-409f-a792-fb4d8e97ae96" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a82f36c0-8733-4e1b-b312-cc9609e9bfae" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="b60e7cb6-a903-4b78-b3aa-28aeaa206fe8" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="d07b97a3-30a1-474e-ab71-1fff4f5821d7" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="aa0d45ee-f695-479a-859d-670ed8f8130b_030c988b-6e01-4b39-a080-f4205b6f747d" />
+<ActInputValue Guid="34c3a07a-36e5-48cc-b3bd-b9455a9dc643" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="af44f0f8-5390-48a4-b409-dcc6395ca5c1" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=UserName}" />
+<ActInputValue Guid="84762f57-2483-4b64-bf62-84355e1e421c" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="3f2c284e-9967-44e7-84cb-03fd467b9756" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="e4f2b525-6ee7-436e-999c-7f4f48defd2b" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="4d1065a4-4e31-4c09-bef3-6dc165ba49b2" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="SetText - input password" Guid="69eac4b2-a945-49ba-bf2e-63630fd537f3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="69ffcc24-0c86-4261-8d01-6980c0a6071f" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="b0832bee-0fce-4d98-9431-5784ebe66d3d" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="4be33587-9b8a-4afa-9c44-34fab58763b4" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="aa0d45ee-f695-479a-859d-670ed8f8130b_0a879a6a-1c69-4eba-a4ec-2e959a0de30a" />
+<ActInputValue Guid="c2476246-0fd4-4b8c-812a-74d7e19f9dc5" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="f815e212-934c-4bf5-9dcf-e8beb8af676d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="secret_sauce" />
+<ActInputValue Guid="70a9e6be-4005-4d30-a4f7-a555d3aedd1c" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="f6758010-963e-4000-9743-d1c00f264dd7" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="09f419c8-8cd6-4bd3-b1f2-34ba19961793" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="2ab41a9c-2a76-40bf-8fb3-9647da19d0a9" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+
+<Variables>
+<VariableString Guid="7548b60e-4549-440f-b838-83509c740b97" InitialStringValue="standard_user" MappedOutputType="None" Name="UserName" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="False" SetAsOutputValue="False" />
+</Variables>
+</Activity></GingerRepositoryItem>

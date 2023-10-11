@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="878ebcb7-57d1-4953-a6e4-7c36d69c1569" ItemType="Activity" CreatedBy="meni" Created="202310111803" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310111803" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WS_REST API" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="878ebcb7-57d1-4953-a6e4-7c36d69c1569" ParentGuid="878ebcb7-57d1-4953-a6e4-7c36d69c1569" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActWebAPIRest Active="True" Description="WebAPI REST Action" Guid="cdc0979e-c5fe-4770-a6c0-dc3e13375cc3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="b2963d40-5401-4f4d-9567-491c6a96016e" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://jsonplaceholder.typicode.com/posts/1" />
+<ActInputValue Guid="a58e67da-b915-49c7-9875-500ea368ea00" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="daae0a29-659d-45da-85c3-53cef1317dc0" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c2833c82-68dc-4382-a278-e1d85494846d" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="625102ea-a3fc-4eae-acb0-7a46f221ddb7" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Default" />
+<ActInputValue Guid="6e760e65-f068-4cc5-a0a2-612d9b637872" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeText" />
+<ActInputValue Guid="efae29c0-141a-45f3-aaf3-10de0dc4a46e" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllSSL" />
+<ActInputValue Guid="638814aa-fa50-411e-b03d-039bb91475a4" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="0f06cc83-ef82-439b-be9b-859286bd26c0" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="3f5b4b66-8231-4aa5-9d38-b8b05c8d20a2" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="5b47999d-6267-4344-9d95-67e9800c301f" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="8393f6fe-e220-4f10-a30e-083eb3c3d824" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="eaef48de-ad26-43ee-978d-aaab3081f93e" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1afc7925-81ba-4f98-ac55-db13db2ddea9" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="187a0194-b9b4-4159-bff3-457de5005ac2" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="None" />
+<ActInputValue Guid="8db3c3bb-aa28-4646-8dc0-5ed045645b02" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NoAuthentication" />
+<ActInputValue Guid="a0231b9a-7a28-4378-9160-f42ad6187cbe" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="347b2bd4-2353-44f6-93bf-f500f2fa9abf" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1f634305-4877-4096-b7c1-7fb69f9d0212" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Session" />
+<ActInputValue Guid="1fd0462e-67b5-4ad6-a6f2-3a6065515430" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GET" />
+<ActInputValue Guid="a07ef9fe-6a4a-48cd-97c2-416e85ec6224" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HTTPV11" />
+<ActInputValue Guid="87e1a0a2-150d-414d-85da-9091f31b70b5" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="8d041519-92f1-4bcc-bc2d-001a7f03eae3" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="c9644242-130e-4540-a1bb-cc53dbb868a5" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActWebAPIRest>
+</Acts>
+</Activity></GingerRepositoryItem>

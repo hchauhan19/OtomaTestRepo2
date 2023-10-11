@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="501335f1-f283-4f90-9f9b-2ca2c112965b" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310111803" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310111803" />
+<ActivitiesGroup Guid="501335f1-f283-4f90-9f9b-2ca2c112965b" Name="WS_API_Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="878ebcb7-57d1-4953-a6e4-7c36d69c1569" ActivityName="WS_REST API" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="99884b2c-993f-4962-8553-ff0ce280a87a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

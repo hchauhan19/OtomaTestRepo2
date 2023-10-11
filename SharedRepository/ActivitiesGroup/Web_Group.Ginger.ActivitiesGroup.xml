@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bca5858b-0597-4f76-bd54-e9ef87f94dba" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310111806" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310111806" />
+<ActivitiesGroup Guid="bca5858b-0597-4f76-bd54-e9ef87f94dba" Name="Web_Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c3fe9d6d-606f-4c11-a0e5-cad4bdf596d2" ActivityName="Web_Luanch URL" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="51b1b41a-8331-46e9-b0fb-b7c3b1c5774b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="77b7c8f4-ee24-4256-999f-ce55ea21444a" ActivityName="Web_Enter UserNAme &amp; PWD" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1fb5563d-0f7d-44bd-a7c1-330f04e0b6e3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c801ac2f-8694-4832-9a8b-44b6fb45db74" ActivityName="Web_Click on Login" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="c847c5ae-7ca4-4f95-896a-ea680ceb5b57" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="83f8c313-61b4-4a6c-9d4d-4322d29cedc2" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310111807" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310111807" />
+<ActivitiesGroup Guid="83f8c313-61b4-4a6c-9d4d-4322d29cedc2" Name="Mixed_Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="143b23cd-0e8e-47f1-b13f-f2f01f8e9357" ActivityName="WS_REST API_Mix" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="eb86e6f5-e548-4b38-976d-9a32e1e14103" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2189d70f-dc14-4e75-a6e0-8b24258ae14a" ActivityName="WS_REST API_Mix_Consumer" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="61ae7d18-5956-4644-9233-b812a24399b9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="ae3cb296-836d-4c56-895b-5902d2dc2476" ActivityName="Web_Mix" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="4d4d9d29-1411-472e-a1a1-740c1f0b9dec" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c851d68a-3a00-4e9f-8551-f833fe97664f" ItemType="BusinessFlow" CreatedBy="meni" Created="202310111737" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202310111807" />
+<BusinessFlow Guid="c851d68a-3a00-4e9f-8551-f833fe97664f" Name="Flow4_WS_Consumer" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="WS_Consumer_Group" ActivityName="WS_REST API_Consumer" Guid="13c5f9fe-75b3-40c0-b9cd-4dad1730c701" ParentGuid="13c5f9fe-75b3-40c0-b9cd-4dad1730c701" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="eafb34df-d615-4e61-82f5-0f4dcc27cacd" Name="WS_Consumer_Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13c5f9fe-75b3-40c0-b9cd-4dad1730c701" ActivityName="WS_REST API_Consumer" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="86e201f6-1ef7-44bb-9ff8-db0d0a4a0787" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="daa3cacc-12af-4c37-b189-daeccbfc1f92" ParentGuid="8c9eb240-5632-47e0-bf5e-615e579f6d38" />
+<TargetApplication AppName="MyWebServicesApp" Guid="c6115e63-e991-41a5-b906-9f681c1216e3" ParentGuid="339d1919-ceb4-417c-ba23-ff5c1d2c2133" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
