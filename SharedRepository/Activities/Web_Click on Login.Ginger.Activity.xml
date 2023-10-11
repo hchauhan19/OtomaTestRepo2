@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c801ac2f-8694-4832-9a8b-44b6fb45db74" ItemType="Activity" CreatedBy="meni" Created="202310111806" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310111806" />
+<GingerRepositoryItem><Header ItemGuid="c801ac2f-8694-4832-9a8b-44b6fb45db74" ItemType="Activity" CreatedBy="meni" Created="202310111806" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202310111818" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Web_Click on Login" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="c801ac2f-8694-4832-9a8b-44b6fb45db74" ParentGuid="c801ac2f-8694-4832-9a8b-44b6fb45db74" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
 <ActUIElement Active="True" Description="Click - input submit login-button Login" Guid="9c8f0cba-b0f0-462a-ad96-2b1f9122373a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
